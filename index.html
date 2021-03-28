@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head> 
+  <title>sign in sign up page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="container">
+    <div class="overlay" id="overlay">
+      <div class="sign-in" id="sign-in">
+        <h1>Welcome Back!</h1>
+        <img src="undraw_content_team_3epn.svg" width="250px" height="250px" alt="content-team">
+        <p>To keep connected with us please login with your personal info</p>
+        <button class="switch-button" id="slide-right-button">Sign In</button>
+      </div>
+      <div class="sign-up" id="sign-up">
+        <h1>Hello, Friend!</h1>
+        <img src="undraw_online_test_gba7.svg" width="250px" height="250px" alt="online-test">
+        <p>New here? Enter your personal details and start a journey with us</p>
+        <button class="switch-button" id="slide-left-button">Sign Up</button>
+      </div>
+    </div>
+    <div class="form">
+      <div class="sign-in" id="sign-in-info">
+        <h1>Sign In</h1>
+        <div class="login-icon">
+          <div class="icon">
+            <img src="010-linkedin.svg"  class="icon1"alt="linkedin">
+            <img src="001-facebook.svg"  class="icon2" alt="facebook">
+            <img src="013-twitter.svg"  class="icon3" alt="twitter">
+            </div>
+      </div>
+        <p class="small">or use your email account:</p>
+        <form id="sign-in-form">      
+          <input type="email" placeholder="Email"/>
+          <input type="password" placeholder="Password"/>
+          <p class="forgot-password">Forgot your password?</p>
+          <button class="control-button in">Sign In</button>
+        </form>
+      </div>
+      <div class="sign-up" id="sign-up-info">
+        <h1>Create Account</h1>
+<div class="login-icon">
+          <div class="icon">
+            <img src="010-linkedin.svg"  class="icon1" alt="linkedin">
+            <img src="001-facebook.svg"  class="icon2" alt="facebook">
+            <img src="013-twitter.svg"  class="icon3" alt="twitter">
+            </div>
+      </div>
+        <p class="small">or use your email for registration:</p>
+        <form id="sign-up-form">
+          <input type="text" placeholder="Name"/>
+          <input type="email" placeholder="Email"/>
+          <input type="password" placeholder="Password"/>
+          <button class="control-button up">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<script  src="../project3/script.js"></script>
+</body>
+</html>
